@@ -1,0 +1,75 @@
+body {
+  color: #000000; 
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 12px;
+}
+
+#results {
+  font-size: 10px;
+}
+
+span.label {
+  float: left;
+  /*width: 125px;*/
+  margin: 4px 0 0 0;
+}
+
+input {
+  padding: 2px;
+}
+
+div.options-input-container{
+  /*background: #eee;*/
+  padding: 2px;
+  height: 20px
+}
+
+div.options-input-container div {
+  float: left;
+
+  margin:0 10px 0 0;
+}
+
+.opt-btn-add{
+  background: #eee;
+  padding: 3px 5px 3px 5px;
+}
+
+#todayDate {
+  margin: 0 0 0 20px;
+}
+
+table th {
+  height: 20px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #ddd;
+  padding: 10px 15px 10px 15px;
+  background: #eee;
+  align: right;
+  text-align: right;
+}
+
+table {
+  /*border-top: 1px solid #eee;*/
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  border-collapse: collapse;
+}
+
+table td {
+  /*border-bottom: 1px solid #eee;*/
+  /*border-right: 1px solid #ddd;*/
+  border: 1px solid #ddd;
+}
+
+td.align-right {
+  align: right;
+}
+
+table td {
+  padding: 5px;
+}
+
+.options-input-container input {
+  width: 65px;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <p><strong>Stock Options Vesting Schedule (1 year cliff, 4 year vesting schedule)</strong><span id="todayDate"></span></p>
+  <hr/>
+  <div id="opt-outer-container">
+    <div class="options-input-container" style="display:none" id="opt-0">
+      <div><span class="label">1.</span></div>
+      <div><span class="label">Vesting Start Date:</span> <span><input type="text" value=""/></span></div>
+      <div><span class="label"># of Options:</span> <span><input type="text" value=""/></span></div>
+      <div><span class="label">Strike Price:</span> <span><input type="text" value=""/></span></div>
+      <div><span class="label">Optional ></span></div>
+      <div><span class="label">Sell Date:</span> <span><input type="text" value=""/></span></div>
+      <div><span class="label">Options Sold:</span> <span><input type="text" value=""/></span></div>
+      <div><span class="label"><button id="insertGrantButton">add grant</button></span></div>
+    </div>
+  </div>
+  <hr/>
+  <div>
+    <span class="label">Projected value:</span> <span><input id="projectedValue" type="text" value="12"/></span>&nbsp;
+    <button id="run-schedule">run schedule</button>
+  </div>
+  <hr/>
+  <div id="results"></div>
+</body>
+<script src="options.js" ></script>
+</html>
